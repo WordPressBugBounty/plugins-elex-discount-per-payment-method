@@ -1,0 +1,1 @@
+# plugins-elex-discount-per-payment-method
