@@ -3,12 +3,12 @@
  * Plugin Name:          ELEX WooCommerce Discount Per Payment Method
  * Plugin URI:           https://elextensions.com/plugin/elex-woocommerce-discount-per-payment-method-free/
  * Description:          The plugin allows to set discounts according to the payment method selected on the Checkout page.
- * Version:              1.2.7
+ * Version:              1.2.8
  * Author:               ELEXtensions
  * Author URI:           https://elextensions.com/
  * Developer:            ELEXtensions    
  * WC requires at least: 2.6.0
- * WC tested up to:      9.4
+ * WC tested up to:      9.7
  */
 
  //Exit if accessed directly.
@@ -46,7 +46,7 @@ if ( ! function_exists( 'get_plugin_data' ) ) {
 	require_once  ABSPATH . 'wp-admin/includes/plugin.php';
 }
 include_once __DIR__ . '/review_and_troubleshoot_notify/review-and-troubleshoot-notify-class.php';
-$data                      = get_plugin_data( __FILE__ );
+$data                      = get_plugin_data( __FILE__, false, false);
 $data['name']              = $data['Name'];
 $data['basename']          = plugin_basename( __FILE__ );
 $data['documentation_url'] = 'https://elextensions.com/knowledge-base/set-up-elex-woocommerce-discount-per-payment-method-plugin/';
@@ -78,7 +78,7 @@ class Elex_Woo_Discount_Per_Payment_Method extends WC_Settings_Page {
 		add_filter('plugin_action_links_' . plugin_basename(__FILE__), array($this, 'Elex_Woo_Discount_Per_Payment_Method_Add_Menu') );
 
 		//for adding discount on checkout page
-		add_action( 'woocommerce_before_calculate_totals', array($this,'Elex_Woo_Discount_Per_Payment_Method_Add_Discount'), 99 );
+		add_action( 'woocommerce_before_calculate_totals', array($this,'Elex_Woo_Discount_Per_Payment_Method_Add_Discount'), 99999, 3);
 		//for adding html ( label and discounted price ) on checkout page.
 		add_filter('woocommerce_checkout_cart_item_quantity', array($this,'Elex_Woo_Discount_Per_Payment_Method_Add_html'), 10, 3);
 
