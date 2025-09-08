@@ -3,12 +3,12 @@
  * Plugin Name:          ELEX WooCommerce Discount Per Payment Method
  * Plugin URI:           https://elextensions.com/plugin/elex-woocommerce-discount-per-payment-method-free/
  * Description:          The plugin allows to set discounts according to the payment method selected on the Checkout page.
- * Version:              1.2.9
+ * Version:              1.3.0
  * Author:               ELEXtensions
  * Author URI:           https://elextensions.com/
  * Developer:            ELEXtensions    
  * WC requires at least: 2.6.0
- * WC tested up to:      9.8
+ * WC tested up to:      10.0
  */
 
  //Exit if accessed directly.
