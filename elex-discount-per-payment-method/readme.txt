@@ -3,8 +3,8 @@ Contributors: elextensions
 Donate link: 
 Tags: discount, payment method, payment, woocommerce
 Requires at least: 3.0.1
-Tested up to: 6.8
-Stable tag: 1.3.0
+Tested up to: 6.9
+Stable tag: 1.3.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -59,6 +59,9 @@ We, Team ELEXtensions are a group of WordPress and WooCommerce enthusiasts with 
 
 
 == Changelog == 
+
+= 1.3.1 =
+* Made compatible with WordPress 6.9
 
 = 1.3.0 =
 * Tested OK with WooCommerce 10.0
@@ -155,6 +158,9 @@ We, Team ELEXtensions are a group of WordPress and WooCommerce enthusiasts with 
 
 
 == Upgrade Notice ==
+
+= 1.3.1 =
+* Made compatible with WordPress 6.9
 
 = 1.3.0 =
 * Tested OK with WooCommerce 10.0
