@@ -65,7 +65,7 @@ function Elex_Woo_Discount_Per_Payment_Method_Load_Assets() {
 		);
 		wp_enqueue_script('elex-cpp-custom-jquery');
 
-		$wc_gateways   = new WC_Payment_Gateways();
+		$wc_gateways   = WC()->payment_gateways();
 		$PMD_available = array();
 
 		foreach ($wc_gateways->get_available_payment_gateways() as $gateway) {

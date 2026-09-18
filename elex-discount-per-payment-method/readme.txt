@@ -3,8 +3,8 @@ Contributors: elextensions
 Donate link: 
 Tags: discount, payment method, payment, woocommerce
 Requires at least: 3.0.1
-Tested up to: 6.9
-Stable tag: 1.3.2
+Tested up to: 7.1
+Stable tag: 1.3.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -60,11 +60,16 @@ We, Team ELEXtensions are a group of WordPress and WooCommerce enthusiasts with 
 
 == Changelog == 
 
+= 1.3.3 =
+* Compatibility check with Wordpress 7.1
+* Compatibility check with WooCommerce 11.1
+* Made compatible with PHP 8.4
+
 = 1.3.2 =
-* Improved discount calculations
-* Added support for fixed discounts
-* Added custom discount labels for each payment method
-* Enhanced validation and security
+* Improved discount calculation
+* Added fixed discount support
+* Added custom discount label
+* Enhanced validation & security
 
 = 1.3.1 =
 * Made compatible with WordPress 6.9
@@ -165,11 +170,16 @@ We, Team ELEXtensions are a group of WordPress and WooCommerce enthusiasts with 
 
 == Upgrade Notice ==
 
+= 1.3.3 =
+* Compatibility check with Wordpress 7.1
+* Compatibility check with WooCommerce 11.1
+* Made compatible with PHP 8.4
+
 = 1.3.2 =
-* Improved discount calculations
-* Added support for fixed discounts
-* Added custom discount labels for each payment method
-* Enhanced validation and security
+* Improved discount calculation
+* Added fixed discount support
+* Added custom discount label
+* Enhanced validation & security
 
 = 1.3.1 =
 * Made compatible with WordPress 6.9
